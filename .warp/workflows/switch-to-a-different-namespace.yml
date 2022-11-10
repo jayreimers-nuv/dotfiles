@@ -1,0 +1,14 @@
+---
+name: Switch to a different namespace
+command: "kubectl config set-context --current --namespace={{namespace}}"
+tags:
+  - kubectl
+description: "Switch to a different namespace"
+arguments:
+  - name: namespace
+    description: The Namespace you want to switch to
+    default_value: default
+source_url: "https://github.com/jreimersjg/dotfiles"
+author: Jay Reimers
+author_url: "https://github.com/jreimersjg"
+shells: []
